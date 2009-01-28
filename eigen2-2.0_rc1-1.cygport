@@ -1,0 +1,8 @@
+inherit cmake
+
+DESCRIPTION="C++ template library for linear algebra"
+HOMEPAGE="http://eigen.tuxfamily.org/"
+SRC_URI="http://download.tuxfamily.org/eigen/eigen-${PV/_/-}.tar.bz2"
+SRC_DIR=${PN}
+
+DOCS="COPYING.LESSER"
