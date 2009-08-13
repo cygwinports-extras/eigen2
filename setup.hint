@@ -1,5 +1,4 @@
 category: Devel
-requires: gcc-g++
 sdesc: "C++ template library for linear algebra"
 ldesc: "Eigen is a lightweight C++ template library for vector and 
 matrix math, a.k.a. linear algebra.
