@@ -10,7 +10,7 @@ optimal speed with GCC.
 
 Build requirements:
   cmake-2.8.0-11
-  cygport-0.9.80-1
+  cygport-0.9.83-1
   make-3.81-2
 
 Canonical website:
@@ -22,19 +22,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack eigen2-2.0.11-X-src.tar.bz2
+  unpack eigen2-2.0.12-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./eigen2-2.0.11-X.cygport all
+  cygport ./eigen2-2.0.12-X.cygport all
 
 This will create:
-  /usr/src/eigen2-2.0.11-X-src.tar.bz2
-  /usr/src/eigen2-2.0.11-X.tar.bz2
+  /usr/src/eigen2-2.0.12-X-src.tar.bz2
+  /usr/src/eigen2-2.0.12-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.0.12-1 -----
+Version bump.
 
 ----- version 2.0.11-1 -----
 Version bump.
