@@ -3,6 +3,6 @@ inherit cmake
 DESCRIPTION="C++ template library for linear algebra"
 HOMEPAGE="http://eigen.tuxfamily.org/"
 SRC_URI="http://bitbucket.org/eigen/eigen/get/${PV}.tar.bz2"
-SRC_DIR="eigen"
+SRC_DIR="eigen-eigen-${PV}"
 
 DOCS="COPYING.LESSER"
