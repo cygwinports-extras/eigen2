@@ -2,7 +2,7 @@ inherit cmake
 
 NAME="eigen2"
 VERSION=2.0.17
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="C++ template library for linear algebra"
 DESCRIPTION="Eigen is a lightweight C++ template library for vector and matrix
@@ -11,8 +11,9 @@ focuses on the simple mathematical needs of applications: games and other OpenGL
 apps, spreadsheets and other office apps, etc. Eigen is dedicated to providing
 optimal speed with GCC."
 HOMEPAGE="http://eigen.tuxfamily.org/"
-SRC_URI="http://bitbucket.org/eigen/eigen/get/${VERSION}.tar.bz2"
-SRC_DIR="eigen-eigen-${VERSION}"
+SRC_URI="http://bitbucket.org/eigen/eigen/get/${VERSION}.tar.bz2#/eigen-${VERSION}.tar.bz"
+SRC_DIR="eigen-eigen-b23437e61a07"
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/rpms/eigen2.git/plain/eigen_ftbfs.patch"
 
 ARCH=noarch
 
